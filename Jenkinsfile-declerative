@@ -1,7 +1,7 @@
 node {
     def mvnHome
     stage('SCM') { 
-        git 'https://github.com/vamsibyramala/dicet_tv.git'
+        git 'https://github.com/DHANASRI-SUNKARI/dicet_tv.git'
         mvnHome = tool 'maven'
     }
     stage('Build') {
