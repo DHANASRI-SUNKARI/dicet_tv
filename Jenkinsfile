@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-                git 'https://github.com/vamsibyramala/dicet_tv.git'
+                git 'https://github.com/DHANASRI-SUNKARI/dicet_tv.git'
             }
         }
         stage('build') {
